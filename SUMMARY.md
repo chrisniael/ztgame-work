@@ -1,5 +1,5 @@
 # 目录
 
 * [介绍](README.md)
-* [服务器开发环境](README)
-   * [让vim飞](vim.md)
+* [服务器开发环境](env/README.md)
+   * [让vim飞](env/vim.md)
