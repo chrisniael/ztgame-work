@@ -6,4 +6,4 @@
 
 沈煜
 
-<a href="mailto:shenyu@shenyu.me">shenyu@shenyu.me</a>
+<a href="mailto:shenyu@shenyu.me">shenyu@ztgame.com</a>
