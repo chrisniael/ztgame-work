@@ -197,7 +197,3 @@ Solarized GitHub：[https://github.com/altercation/solarized](https://github.com
         * 将光标移动到某个 tag 上，然后按 `空格` 键，在命令栏中会显示该tag在源码中完整的写法。
 
         * 将光标移动到某个tag 上，然后按 `回车` 键，会跳转到相应文件的定义出。
-
-
-
-
