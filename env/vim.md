@@ -110,6 +110,15 @@ Solarized GitHub：[https://github.com/altercation/solarized](https://github.com
         * 输入 `:Dox` 会在函数或类的定义的上一行插入 Doxygen 注释
 
         * 插入 `:DoxAuthor` 会在光标位置出插入 `文件名`，`作者`，`时间`等信息。
+        
+        
+* ### <a id="echofunc">Echofunc</a>
+
+    快速查看函数原型。
+    
+        * #### 功能键
+        
+            
 
 
 * ### <a id="nerdtree">NERDTree</a>
