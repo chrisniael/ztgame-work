@@ -137,10 +137,9 @@ Solarized GitHub：[https://github.com/altercation/solarized](https://github.com
     * #### 功能键：
 
         * `\` `c` `c` ：注释当前行或已选的代码块。
-
         * `\` `c` `c` ：与上面功能相反，取消注释。
-
         * `\` `c` `m` ：使用多行注释样式 `/* */` 注释。
+		* `<number>` `\` `c` `c` ：注释<number>行
 
 
 * ### <a id="omnicpp">OmniCppComplete</a>
