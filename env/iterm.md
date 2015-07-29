@@ -4,7 +4,7 @@
 
 ## 安装 iTerm
 
-* 去官网下载 Stable 版本的 *iTerm*
+* 去[官网](http://www.iterm2.com)下载 Stable 版本的 *iTerm*
 
 * 解压下载完的 zip 文件
 
