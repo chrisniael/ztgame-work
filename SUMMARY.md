@@ -5,5 +5,6 @@
    * [bash](env/bash.md)
    * [让vim飞](env/vim.md)
    * [svn](env/svn/README.md)
-        * [彩色化svn diff](env/svn/svn-diff.md)
+       * [彩色化svn diff](env/svn/svn-diff.md)
+       * env/svn/cmd-autocompletion.md
 
