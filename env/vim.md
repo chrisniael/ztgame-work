@@ -48,7 +48,7 @@ Solarized GitHub：[https://github.com/altercation/solarized](https://github.com
 
 ## Vundle 插件管理器
 
-手动安装 vim 插件的方式以相当繁琐，Vundel 的诞生是大势所趋，不过内网机不能连外网，所以也就体会不太到使用 Vundel 的便捷，当然可以将插件的仓库拷贝到本地，再使用 Vundle 来安装。
+手动安装 vim 插件的方式以相当繁琐，Vundel 的诞生是大势所趋，不过内网机不能连外网，所以也就体会不太到使用 Vundel 的便捷，当然可以将插件的仓库拷贝到本地，再使用 Vundle 来安装管理。
 
 
 ## 插件清单
