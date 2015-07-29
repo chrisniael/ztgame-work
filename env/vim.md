@@ -46,11 +46,20 @@ Solarized GitHub：[https://github.com/altercation/solarized](https://github.com
 跳转到上一个书签（插件 [Bookmarking](#bookmarking) 的功能键），相当于执行 `:PreviousBookmark`。
 
 
+## Vundle 插件管理器
+
+手动安装 vim 插件的方式以相当繁琐，Vundel 的诞生是大势所趋，不过内网机不能连外网，所以也就体会不太到使用 Vundel 的便捷，当然可以将插件的仓库拷贝到本地，再使用 Vundle 来安装。
+
+
 ## 插件清单
+
+* ### airline
+
+    逼格相当高的状态栏插件
 
 * ### <a id="a">A</a>
 
-    用于快速跳转 .h 和 .cpp 文件。
+    用于快速跳转 .h 和 .cpp 文件
 
     * #### 功能键
 
@@ -59,19 +68,6 @@ Solarized GitHub：[https://github.com/altercation/solarized](https://github.com
         * 输入命令 `:AV` 会垂直切割出新的窗口来打开对应的 .h 或 .cpp 文件
 
         * 输入命令 `:AS` 会水平切割出新的窗口来打开对应的 .h 或 .cpp 文件
-
-
-* ### <a id="bookmarking">Bookmarking</a>
-
-    用于标记你感兴趣的内容（书签）。
-
-    * #### 功能键
-
-        * 输入命令 ` ：ToggleBookmark` 会在光标当前行创建一个书签
-
-        * 输入命令 `:NextBookmark` ：会跳转到下一个书签位置处
-
-        * 输入命令 `:PreviousBookmark` ：会跳转到上一个书签位置处
 
 
 * ### <a id="doxygen">Doxygen Toolkit</a>
@@ -167,3 +163,16 @@ Solarized GitHub：[https://github.com/altercation/solarized](https://github.com
         * 将光标移动到某个 tag 上，然后按 `空格` 键，在命令栏中会显示该tag在源码中完整的写法。
 
         * 将光标移动到某个tag 上，然后按 `回车` 键，会跳转到相应文件的定义出。
+
+
+* ### <a id="bookmarking">Bookmarking</a>
+
+    用于标记你感兴趣的内容（书签）。
+
+    * #### 功能键
+
+        * 输入命令 ` ：ToggleBookmark` 会在光标当前行创建一个书签
+
+        * 输入命令 `:NextBookmark` ：会跳转到下一个书签位置处
+
+        * 输入命令 `:PreviousBookmark` ：会跳转到上一个书签位置处
