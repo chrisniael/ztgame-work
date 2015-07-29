@@ -7,7 +7,7 @@
 
 * 下载 [colordiff](http://www.colordiff.org/) 源码包
 
-* 执行 `make` 编译，并 `sudo make install` 安装
+* 执行 `sudo make install` 安装
 
 安装完成后可以单独使用 `colordiff -g` 命令来比较两个文件的差异，与 `diff` 命令参数一致
 
