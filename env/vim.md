@@ -8,7 +8,7 @@
 
 ## 颜色风格
 
-个人偏好于 `Solarized` 的颜色风格，它的配色方案能用于多种不同的编辑器，包括Vim，Xcode，NetBeans等。
+`Solarized` 颜色风格相当骚情，它的配色方案能用于多种不同的编辑器，包括Vim，Xcode，NetBeans等。
 
 Solarized GitHub：[https://github.com/altercation/solarized](https://github.com/altercation/solarized)
 
