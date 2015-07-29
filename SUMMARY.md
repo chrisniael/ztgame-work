@@ -2,7 +2,7 @@
 
 * [介绍](README.md)
 * [服务器开发环境](env/README.md)
-   * iTerm
+   * [iTerm](env/iterm.md)
    * [bash](env/bash.md)
    * [让vim飞](env/vim.md)
    * [svn](env/svn/README.md)
