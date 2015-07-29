@@ -17,4 +17,4 @@
 
 * 将 `diff-cmd = diff_program` 的注释行，去掉注释并修改成 `diff-cmd = colordiff`，保存退出
 
-之后执行 `svn diff` 命令的时候，就可以彩色化的显示版本差异了，其实这样配置，相当于在执行 `svn diff` 的时候多加了一个参数 `svn diff --diff-cmd = colordiff`
+    之后执行 `svn diff` 命令的时候，就可以彩色化的显示版本差异了，其实这样配置，相当于在执行 `svn diff` 的时候多加了一个参数 `svn diff --diff-cmd = colordiff`
