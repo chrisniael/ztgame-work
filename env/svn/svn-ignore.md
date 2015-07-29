@@ -53,21 +53,20 @@ done
 
 *  获取属性列表
 
-```shell
-svn proplist
-```
-
-打印当前文件夹的属性清单，如果设置了 `svn:ignore` 属性会打印出来。
+    ```shell
+    svn proplist
+    ```
+    打印当前文件夹的属性清单，如果设置了 `svn:ignore` 属性会打印出来。
 
 
 * 获取 svn:ignore 清单
 
-```shell
-svn propget svn:ignore
-```
+    ```shell
+    svn propget svn:ignore
+    ```
 
 * 删除 svn:ignore 属性
 
-```shell
-svn propdel svn:ignore
-```
+    ```shell
+    svn propdel svn:ignore
+    ```
