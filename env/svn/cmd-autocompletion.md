@@ -14,3 +14,5 @@ then
     source /etc/bash_completion.d/subversion
 fi
 ```
+
+配置完成之后，重启 bash，或者执行 `source ~/bash_profile` 一下，就能使配置生效，之后执行 svn 命令的时候就能像在 bash 中一样使用 `Tab` 键来补全 svn 命令了。
