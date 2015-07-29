@@ -21,59 +21,32 @@ Solarized GitHub：[https://github.com/altercation/solarized](https://github.com
 
     相当于执行 `:A`（[A 插件](#a) 的功能键），跳转到当前文件对应的 .h  或 .cpp 文件中，如果不存在则会询问是否建立。
 
-
 * ### `Ctrl` + `A` 紧接着 `Ctrl` + `V`
 
     相当于执行 `:AV`，功能同上，但会再垂直切割出新的窗口来打开对应文件。
 
-
-* ### `F2`
+* ### `tt`
 
 打开 [TagList 插件](#taglist)，相当于执行 `:TlistToggle`。
 
+* ### `Tab`
 
-* ### `F3`
-
-打开 [NERDTree 插件](#nerdtree)，相当于执行 `:NERDTreeToggle`。
-
-
-* ### `F4`
-
-折叠代码块，相当于执行 `z` `a`。
-
+[SuperTab](#supertab) 和 [snipMate](#snipmate) 插件的功能键，可以补全关键字和快速插入预定义的语法格式。
 
 * ### `F5`
 
 在当前行插入书签 （插件 [Bookmarking](#bookmarking) 的功能键），相当于执行 `:ToggleBookmark`。
 
-
 * ### `F6`
 
 跳转到下一个书签（插件 [Bookmarking](#bookmarking) 的功能键），相当于执行 `:NextBookmark`。
-
 
 * ### `F7`
 
 跳转到上一个书签（插件 [Bookmarking](#bookmarking) 的功能键），相当于执行 `:PreviousBookmark`。
 
 
-* ### `F8`
-
-取消搜索结果的高亮，相当于执行 `:nohlsearch`。
-
-
-* ### `F9`
-
-高亮文中所有匹配光标位置所指的单词，并输入全文替换的命令。
-
-
-* ### `Tab`
-
-[SuperTab](#supertab) 和 [snipMate](#snipmate) 插件的功能键，可以补全关键字和快速插入预定义的语法格式。
-
-
-
-## 插件列表
+## 插件清单
 
 * ### <a id="a">A</a>
 
@@ -117,17 +90,6 @@ Solarized GitHub：[https://github.com/altercation/solarized](https://github.com
     快速查看函数原型。
     
         * #### 功能键
-        
-            
-
-
-* ### <a id="nerdtree">NERDTree</a>
-
-    目录树插件。
-
-    * #### 功能键
-
-        * 输入 `:NERDTreeToggle` 打开 NERDTree
 
 
 * ### <a>NERD Commenter</a>
