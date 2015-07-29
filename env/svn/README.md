@@ -7,4 +7,3 @@
 * [彩色化svn diff](svn-diff.md)
 * [svn 命令智能补全](svn-autocompletion.md)
 * [svn 忽略文件、文件夹](svn-ignore.md)
-
