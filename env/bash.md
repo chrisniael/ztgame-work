@@ -16,4 +16,9 @@ alias la='ls -laFh --color'
 
 #export PS1="\[\e[0;32m\][\[\e[0;31m\]\u\[\e[0;36m\]@\[\e[0;33m\]\h\[\e[0;34m\]:\[\e[0;35m\]\w\[\e[0;32m\]] \[\e[0;37m\]$ \[\e[0m\]
 export PS1="\[\e[0;35m\]\w \[\e[0;37m\]$ \[\e[0m\]"
+
+if [ -f /etc/bash_completion.d/subversion ]
+then
+    source /etc/bash_completion.d/subversion
+fi
 ```
