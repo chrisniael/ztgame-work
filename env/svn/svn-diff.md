@@ -5,7 +5,7 @@
 
 ### 安装 colordiff
 
-* 下载 colordiff 源码包
+* 下载 [colordiff](http://www.colordiff.org/) 源码包
 
 * 执行 `make` 编译，并 `sudo make install` 安装
 
