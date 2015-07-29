@@ -38,7 +38,7 @@ svn propset -F .svnignore .
 ```
 #!/bin/bash
 # @file svnignore.sh
-# @brif 设置 svn:ignore 的脚本，每次更新 .svnignore 文件后请执行这个脚本
+# @brief 设置 svn:ignore 的脚本，每次更新 .svnignore 文件后请执行这个脚本
 
 for ignorefile in $(find . -iname .svnignore)
 do
@@ -46,9 +46,12 @@ do
 done
 ```
 
+现在要忽略某些文件时，只需要在对应文件夹下添加 `.svnignore` 文件，并将要忽略的文件以换行符分隔添加到 这个 `.svnignore` 文件中，再执行一下 `./svnignore.sh` 脚本就OK了，最后需要使用 `svn commit` 将需改的 `svn:ignore` 属性提交。
 
 
-### 获取属性列表
+### svn 属性相关操作
+
+*  获取属性列表
 
 ```shell
 svn proplist
@@ -57,13 +60,13 @@ svn proplist
 打印当前文件夹的属性清单，如果设置了 `svn:ignore` 属性会打印出来。
 
 
-### 获取 svn:ignore 清单
+* 获取 svn:ignore 清单
 
 ```shell
 svn propget svn:ignore
 ```
 
-### 删除 svn:ignore 属性
+* 删除 svn:ignore 属性
 
 ```shell
 svn propdel svn:ignore
