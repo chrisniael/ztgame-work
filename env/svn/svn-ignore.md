@@ -31,6 +31,23 @@ svn propset -F .svnignore .
 * 命令最后的 `.` 代表设置的是当前文件夹，当然可以指定为其他文件夹
 
 
+### 忽略文件、文件夹脚本
+
+根据上面的特性，我们可以写一个脚本来自动完成更新 svn:ignore 的工作
+
+```
+#!/bin/bash
+# @file svnignore.sh
+# @brif 设置 svn:ignore 的脚本，每次更新 .svnignore 文件后请执行这个脚本
+
+for ignorefile in $(find . -iname .svnignore)
+do
+    svn propset svn:ignore -F $ignorefile $(dirname $ignorefile)
+done
+```
+
+
+
 ### 获取属性列表
 
 ```shell
