@@ -12,7 +12,7 @@
 
 Solarized GitHub：[https://github.com/altercation/solarized](https://github.com/altercation/solarized)
 
-![solarized](http://ethanschoonover.com/solarized/img/solarized-vim.png)
+![solarized](img/solarized-vim.png)
 
 
 ## 自定义快捷键

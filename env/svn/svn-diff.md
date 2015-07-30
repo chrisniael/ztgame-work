@@ -2,6 +2,8 @@
 
 原生的 `svn diff` 命令是不带颜色区分的，安装 **colordiff**，并配置 svn 默认使用 **colordiff** 作为比较工具。
 
+![colordiff](img/colordiff.png)
+
 
 ### 安装 colordiff
 
