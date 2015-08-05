@@ -1,19 +1,4 @@
-# iTerm
-
-*Mac* 自带的 *Terminal* 很渣，而且对终端和 *Vim* 配色自定义的支持很差，*iTerm* 正好弥补了这个问题，当然没有软件是完美的，*iTerm* 也又它的 **Bug** 和不足，之后指出。
-
-![iterm](img/iterm.png)
-
-## 安装 iTerm
-
-* 去[官网](http://www.iterm2.com)下载 Stable 版本的 *iTerm*
-
-* 解压下载完的 zip 文件
-
-* 将解压出来的 *iTerm2* 文件移动至 `/Applications/` 文件夹中
-
-
-## 偏好设置
+# 偏好设置
 
 * 使用快捷键显示/隐藏 *iTerm*
 
@@ -64,6 +49,3 @@
 	* `Preferences` -- `Profiles` -- `Text`，点击在 `Non-ASCII Font` 栏的 `Change Font`，选中 `Inconsolata for Powerline` 字体
 
 
-# 缺憾Bug
-
-使用安装了 *airline* 插件的 *Vim*，切换到 *Vim* 的普通模式，当 *iTerm* 窗口最大化/最小化或者长按 `Command` 键呼出 *Tab* 时会出现很难看的瞬间，自己去体验一下吧，希望 *iTerm* 开发团队能尽快解决这个缺陷。
