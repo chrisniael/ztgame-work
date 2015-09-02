@@ -1,52 +1,4 @@
-# 让 vim 飞
-
-
-完善了一下开发机（192.168.180.15）上 vim 的配置，具体总结如下。想要使用一样的配置的话，可以使用 root 帐号登录开发机器，然后将 `/home/shenyu/.vim` 和 `/home/shenyu/.vimrc` 拷贝到自己的 `/home/yourname` 目录下。
-
-可以先开发机上新建一个帐号来玩一下下面的配置。开发机新建帐号时默认的模版目录内容已被我修改过（`/etc/skel/`），新建后的帐号默认就有下面这些配置。
-
-
-## 颜色风格
-
-`Solarized` 颜色风格相当骚情，它的配色方案能用于多种不同的编辑器，包括Vim，Xcode，NetBeans等。
-
-Solarized GitHub：[https://github.com/altercation/solarized](https://github.com/altercation/solarized)
-
-![solarized](img/solarized-vim.png)
-
-
-## 自定义快捷键
-
-* ### `Ctrl` + `A`
-
-    相当于执行 `:A`（[A 插件](#a) 的功能键），跳转到当前文件对应的 .h  或 .cpp 文件中，如果不存在则会询问是否建立。
-
-* ### `Ctrl` + `A` 紧接着 `Ctrl` + `V`
-
-    相当于执行 `:AV`，功能同上，但会再垂直切割出新的窗口来打开对应文件。
-
-* ### `tt`
-
-打开 [TagList 插件](#taglist)，相当于执行 `:TlistToggle`。
-
-* ### `Tab`
-
-[SuperTab](#supertab) 和 [snipMate](#snipmate) 插件的功能键，可以补全关键字和快速插入预定义的语法格式。
-
-* ### `F5`
-
-在当前行插入书签 （插件 [Bookmarking](#bookmarking) 的功能键），相当于执行 `:ToggleBookmark`。
-
-* ### `F6`
-
-跳转到下一个书签（插件 [Bookmarking](#bookmarking) 的功能键），相当于执行 `:NextBookmark`。
-
-* ### `F7`
-
-跳转到上一个书签（插件 [Bookmarking](#bookmarking) 的功能键），相当于执行 `:PreviousBookmark`。
-
-
-## Vundle 插件管理器
+# vim插件
 
 手动安装 vim 插件的方式以相当繁琐，Vundel 的诞生是大势所趋，不过内网机不能连外网，所以也就体会不太到使用 Vundel 的便捷，当然可以将插件的仓库拷贝到本地，再使用 Vundle 来安装管理。
 
@@ -192,3 +144,34 @@ Solarized GitHub：[https://github.com/altercation/solarized](https://github.com
     * 输入命令 `:NextBookmark` ：会跳转到下一个书签位置处
 
     * 输入命令 `:PreviousBookmark` ：会跳转到上一个书签位置处
+
+
+## 自定义快捷键
+
+* ### `Ctrl` + `A`
+
+    相当于执行 `:A`（[A 插件](#a) 的功能键），跳转到当前文件对应的 .h  或 .cpp 文件中，如果不存在则会询问是否建立。
+
+* ### `Ctrl` + `A` 紧接着 `Ctrl` + `V`
+
+    相当于执行 `:AV`，功能同上，但会再垂直切割出新的窗口来打开对应文件。
+
+* ### `tt`
+
+打开 [TagList 插件](#taglist)，相当于执行 `:TlistToggle`。
+
+* ### `Tab`
+
+[SuperTab](#supertab) 和 [snipMate](#snipmate) 插件的功能键，可以补全关键字和快速插入预定义的语法格式。
+
+* ### `F5`
+
+在当前行插入书签 （插件 [Bookmarking](#bookmarking) 的功能键），相当于执行 `:ToggleBookmark`。
+
+* ### `F6`
+
+跳转到下一个书签（插件 [Bookmarking](#bookmarking) 的功能键），相当于执行 `:NextBookmark`。
+
+* ### `F7`
+
+跳转到上一个书签（插件 [Bookmarking](#bookmarking) 的功能键），相当于执行 `:PreviousBookmark`。
