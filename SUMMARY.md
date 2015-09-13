@@ -16,4 +16,7 @@
 		* [svn 命令智能补全](env/svn/cmd-autocompletion.md)
 		* [svn 忽略文件、文件夹](env/svn/svn-ignore.md)
 * [C++](cpp/README.md)
-	* [switch ase](cpp/switch-case.md)
+	* [switch case设计缺陷](cpp/switch-case.md)
+	* [enum便捷的定义](cpp/enum.md)
+* [BAT批处理](bat/README.md)
+	* [使用命令的输出](bat/cmd-return-value.md)
