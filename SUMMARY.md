@@ -20,3 +20,7 @@
 	* [enum便捷的定义](cpp/enum.md)
 * [BAT批处理](bat/README.md)
 	* [使用命令的输出](bat/cmd-return-value.md)
+	* [转义字符](bat/special-char.md)
+	* [退出](bat/exit.md)
+	* [调用](bat/call.md)
+	* [注释](bat/comment.md)
