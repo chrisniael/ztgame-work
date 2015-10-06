@@ -24,3 +24,5 @@
 	* [退出](bat/exit.md)
 	* [调用](bat/call.md)
 	* [注释](bat/comment.md)
+* [Mac](mac/README.md)
+	* [Mac实用功能](mac/function.md)
