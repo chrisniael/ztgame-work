@@ -26,3 +26,7 @@
 	* [注释](bat/comment.md)
 * [Mac](mac/README.md)
 	* [Mac实用功能](mac/function.md)
+* [Shell](shell/README.md)
+	* [语法](shell/syntax.md)
+	* [命令](shell/cmd/README.md)
+		* [sed](shell/cmd/sed.md)
