@@ -13,3 +13,7 @@ sed 's/string/replacement/g' file
 ```shell
 sed -f demo.sh file
 ```
+
+```shell
+sed -i 's/string/replacement/g' file
+```
