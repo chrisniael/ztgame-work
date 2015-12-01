@@ -30,3 +30,5 @@
 	* [语法](shell/syntax.md)
 	* [命令](shell/cmd/README.md)
 		* [sed](shell/cmd/sed.md)
+* [Linux](linux/README.md)
+	* [域名解析配置](linux/domain.md)
