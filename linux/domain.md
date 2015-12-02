@@ -22,3 +22,9 @@ nospoof on
 
 
 ## /etc/resolv.conf
+
+```shell
+nameserver 8.8.8.8
+nameserver 10.202.72.118
+nameserver 10.202.72.116
+```
