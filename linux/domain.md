@@ -24,7 +24,9 @@ nospoof on
 ## /etc/resolv.conf
 
 ```shell
+options attempts:1 timeout:1 rotate
 nameserver 8.8.8.8
-nameserver 10.202.72.118
-nameserver 10.202.72.116
+nameserver 114.114.114.114
 ```
+
+配置完成后，可以执行 `service network restart` 来生效。
