@@ -32,3 +32,4 @@
 		* [sed](shell/cmd/sed.md)
 * [Linux](linux/README.md)
 	* [域名解析配置](linux/domain.md)
+	* [SELinux配置](linux/selinux.md)
