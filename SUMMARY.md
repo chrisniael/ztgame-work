@@ -33,3 +33,6 @@
 * [Linux](linux/README.md)
 	* [域名解析配置](linux/domain.md)
 	* [SELinux配置](linux/selinux.md)
+* [JavaScript](js/README.md)
+	* [JS全局变量](js/global-var.md)
+	* [SetInterval、SetTimeOut传递带参数的函数](js/setinterval-function-var.md)
