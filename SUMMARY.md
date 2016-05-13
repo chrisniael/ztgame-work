@@ -24,6 +24,7 @@
 	* [退出](bat/exit.md)
 	* [调用](bat/call.md)
 	* [注释](bat/comment.md)
+	* [流重定向](bat/stream-redirect.md)
 * [Mac](mac/README.md)
 	* [Mac实用功能](mac/function.md)
 * [Shell](shell/README.md)
