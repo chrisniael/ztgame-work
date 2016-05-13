@@ -146,6 +146,18 @@
     * 输入命令 `:PreviousBookmark` ：会跳转到上一个书签位置处
 
 
+* ### VimIM
+
+    输入法插件。
+
+	```shell
+	brew install berkeley-db
+	sudo su -
+	easy_install pip
+	YES_I_HAVE_THE_RIGHT_TO_USE_THIS_BERKELEY_DB_VERSION=1 BERKELEYDB_DIR=/usr/local/Cellar/berkeley-db/6.1.26/ pip install --user bsddb3
+	```
+
+
 ## 自定义快捷键
 
 * ### `Ctrl` + `A`
