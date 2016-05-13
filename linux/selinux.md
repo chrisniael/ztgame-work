@@ -9,8 +9,7 @@ setenforce 0
 
 * 0 表示 enforcing 模式
 * 1 表示 permissive 模式
-*
-重启后会失效, 修改 `/etc/selinux/config` 永久生效
+* 重启后会失效, 修改 `/etc/selinux/config` 永久生效
 
 ## /etc/selinux/config
 
