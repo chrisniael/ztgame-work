@@ -36,6 +36,7 @@
 	* [SELinux配置](linux/selinux.md)
 	* [解决SSH自动断开](linux/ssh-config.md)
 	* [安装POSIX手册](linux/posix-man-help.md)
+    * [打开网卡](linux/open-network-card.md)
 * [JavaScript](js/README.md)
 	* [JS全局变量](js/global-var.md)
 	* [SetInterval、SetTimeOut传递带参数的函数](js/setinterval-function-var.md)
