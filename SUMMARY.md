@@ -39,6 +39,7 @@
     * [打开网卡](linux/open-network-card.md)
     * [安装 LNMP](linux/install-lnmp.md)
     * [查看端口占用情况](linux/check-port.md)
+    * [RedHat 替换 yum 源](linux/set-yum-source.md)
 * [JavaScript](js/README.md)
     * [JS 全局变量](js/global-var.md)
     * [SetInterval、SetTimeOut 传递带参数的函数](js/setinterval-function-var.md)
