@@ -45,4 +45,4 @@
     * [SetInterval、SetTimeOut 传递带参数的函数](js/setinterval-function-var.md)
     * [AJAX 设置超时时间](js/ajax-timeout.md)
 * [PHP](php/README.md)
-    * [增加 PHP 执行时间（With Nginx）](increase-php-execution-time-with-nginx.md)
+    * [增加 PHP 执行时间（With Nginx）](php/increase-php-execution-time-with-nginx.md)
