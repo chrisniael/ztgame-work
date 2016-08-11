@@ -50,3 +50,4 @@
 * [PHP](php/README.md)
     * [增加 PHP 执行时间（With Nginx）](php/increase-php-execution-time-with-nginx.md)
     * [YUM 安装高版本 PHP](php/yum-install-high-version-php.md)
+    * [PHP-FPM 监听 Unix Socket](php/php-fpm-listen-socket.md)
