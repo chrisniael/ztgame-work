@@ -20,3 +20,9 @@
 * 打开 `远程（RDP）连接要求使用指定的安全层`，勾选 `已启用`，选项中安全层勾选 `RDP`
 
 ![Windows 配置远程连接协议](img/windows-remote-protocol.png)
+
+
+## 参考
+
+* [Mac上远程桌面连接Windows Server 2012 R2 (cnblogs.com)](http://www.cnblogs.com/dudu/p/4907213.html)
+* [OS X RDP to Windows Server 2012 R2 (superuser.com)](http://superuser.com/questions/619116/os-x-rdp-to-windows-server-2012-r2)
