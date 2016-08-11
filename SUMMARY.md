@@ -27,6 +27,7 @@
     * [流重定向](bat/stream-redirect.md)
 * [Mac](mac/README.md)
     * [Mac 实用功能](mac/function.md)
+    * [Mac 局域网远程桌面连接 Windows](mac/mac-lan-remote-desktop-windows.md)
 * [Shell](shell/README.md)
     * [语法](shell/syntax.md)
     * [命令](shell/cmd/README.md)
