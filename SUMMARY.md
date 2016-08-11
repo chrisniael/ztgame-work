@@ -41,6 +41,7 @@
     * [查看端口占用情况](linux/check-port.md)
     * [RedHat 替换 yum 源](linux/set-yum-source.md)
     * [CentOS Text 模式分辨率设置](linux/text-mode-resolution.md)
+    * [设置系统时区](linux/set-timezone.md)
 * [JavaScript](js/README.md)
     * [JS 全局变量](js/global-var.md)
     * [SetInterval、SetTimeOut 传递带参数的函数](js/setinterval-function-var.md)
