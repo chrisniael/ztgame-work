@@ -47,3 +47,4 @@
     * [AJAX 设置超时时间](js/ajax-timeout.md)
 * [PHP](php/README.md)
     * [增加 PHP 执行时间（With Nginx）](php/increase-php-execution-time-with-nginx.md)
+    * [YUM 安装高版本 PHP](php/yum-install-high-version-php.md)
