@@ -28,7 +28,7 @@
 
 现在你可以打开 `http//ip-address` 来查看 `Nginx` 是否正常工作。
 
-## 配置 Nginx
+### 配置 Nginx
 
 * 打开 `Nginx` 配置文件 `/etc/nginx/nginx.conf`
 
@@ -85,3 +85,68 @@ yum install mariadb-server mariadb -y
 systemctl start mariadb
 systemctl enable mariadb
 ```
+
+### 设置 MySQL root 用户密码
+
+MySQL 默认没有设置 root 的密码，执行下面指令来设置 root 密码
+
+```shell
+mysql_secure_installation
+```
+
+## 安装 PHP
+
+通过 yum 来安装 php
+
+```shell
+yum install php php-common php-fpm php-mysql -y
+```
+
+启动 php-fpm，并设置 php-fpm 开机自动启动
+
+```shell
+systemctl start php-fpm
+systemctl enable php-fpm
+```
+
+### 配置 PHP
+
+打开 `/etc/php.ini`，修改 `cgi.fix_pathinfo` 的值为 `0`
+
+```shell
+vi /etc/php.ini
+```
+
+```
+[...]
+cgi.fix_pathinfo=0
+[...]
+```
+
+打开 `/etc/php-fpm.d/www.conf`，修改用户和组为 `nginx`
+
+```
+vi /etc/php-fpm.d/www.conf
+```
+
+```
+[...]
+; Unix user/group of processes
+; Note: The user is mandatory. If the group is not set, the default user's group
+;       will be used.
+; RPM: apache Choosed to be able to access some dir as httpd
+user = nginx
+; RPM: Keep a group allowed to write in log dir.
+group = nginx
+[...]
+```
+
+重启 php-fpm
+
+```shell
+systemctl restart php-fpm
+```
+
+## 参考资料
+
+* [Install LEMP Server On CentOS 7](http://www.unixmen.com/install-lemp-server-nginx-mariadb-php-centos-7/)
