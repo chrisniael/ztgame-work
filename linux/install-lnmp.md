@@ -23,7 +23,7 @@
 
     ```shell
     firewall-cmd --permanent --add-service=http
-    systemctl restart firewalld
+    firewall-cmd --reload
     ```
 
 现在你可以打开 `http//ip-address` 来查看 `Nginx` 是否正常工作。
@@ -139,6 +139,18 @@ user = nginx
 ; RPM: Keep a group allowed to write in log dir.
 group = nginx
 [...]
+```
+
+在文件 `/etc/php-fpm.d/www.conf` 中查找 php Session 目录的配置
+
+```
+php_value[session.save_path] = /var/lib/php/session
+```
+
+修改 php Session 目录（这里是 `/var/lib/php/session`）的拥有者为 `root:nginx`
+
+```shell
+chown -R root:nginx /var/lib/php/session
 ```
 
 重启 php-fpm
