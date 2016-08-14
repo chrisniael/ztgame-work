@@ -10,7 +10,7 @@ PHP-FPM 默认监听 localhost (127.0.0.1)  9000 端口，通过下面的配置�
 vi /etc/php-fpm.d/www.conf
 ```
 
-找到下面这行内容
+找到下面这几行内容
 
 ```
 listen = 127.0.0.1:9000
@@ -19,7 +19,11 @@ listen = 127.0.0.1:9000
 将其更改为
 
 ```
-listen = /var/run/php-fpm/php5-fpm.sock
+sten.owner = nginx
+listen.group = nginx
+listen.mode = 0666
+
+listen = /var/run/php-fpm/php-fpm.sock
 ```
 
 重启 PHP-FPM
@@ -45,7 +49,7 @@ fastcgi_pass    127.0.0.1:9000;
 将其修改为
 
 ```
-fastcgi_pass    unix:/var/run/php-fpm/php5-fpm.sock;
+fastcgi_pass    unix:/var/run/php-fpm/php-fpm.sock;
 ```
 
 重启 Nginx
