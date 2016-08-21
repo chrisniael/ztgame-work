@@ -45,6 +45,7 @@
     * [设置系统时区](linux/set-timezone.md)
     * [安装 EPEL 源](linux/install-epel.md)
     * [查看 Linux 虚拟机类型](linux/virtual-type.md)
+    * [修改 hostname](linux/set-hostname.md)
 * [JavaScript](js/README.md)
     * [JS 全局变量](js/global-var.md)
     * [SetInterval、SetTimeOut 传递带参数的函数](js/setinterval-function-var.md)
