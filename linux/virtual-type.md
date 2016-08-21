@@ -32,3 +32,11 @@ dmesg | grep virtual
 ```
 
 如果上面命令的输出里有 `kvm` 出现，则使用的是 `kvm` 虚拟化技术。
+
+也可以安装 `virt-what`，来判断虚拟化类型
+
+```shell
+yum install virt-what
+```
+
+运行 `virt-what` 就会输出当前机器的虚拟化类型。
