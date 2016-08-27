@@ -46,6 +46,7 @@
     * [安装 EPEL 源](linux/install-epel.md)
     * [查看 Linux 虚拟机类型](linux/virtual-type.md)
     * [修改 hostname](linux/set-hostname.md)
+    * [踢出登录的用户](linux/kill-login-user.md)
 * [JavaScript](js/README.md)
     * [JS 全局变量](js/global-var.md)
     * [SetInterval、SetTimeOut 传递带参数的函数](js/setinterval-function-var.md)
