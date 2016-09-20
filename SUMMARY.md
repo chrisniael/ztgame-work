@@ -60,3 +60,5 @@
     * [Jekyll](ruby/jekyll.md)
 * [Node.js](nodejs/README.md)
     * [GitBook](nodejs/gitbook.md)
+* [Lua](lua/README.md)
+    * [安装 Lua](lua/install.md)
