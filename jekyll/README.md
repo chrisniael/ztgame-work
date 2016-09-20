@@ -2,33 +2,33 @@
 
 ## 修改 RubyGems 镜像源
 
-    ```shell
-    gem sources -a https://ruby.taobao.org/
-    gem sources --remove https://rubygems.org/
-    ```
+```shell
+gem sources -a https://ruby.taobao.org/
+gem sources --remove https://rubygems.org/
+```
 
-    查看当前镜像源，确保输出的只有 `https://ruby.taobao.org/`
+查看当前镜像源，确保输出的只有 `https://ruby.taobao.org/`
 
-    ```shell
-    gem sources -l
-    ```
+```shell
+gem sources -l
+```
 
 ## 安装 jekyll
 
-    * Mac OS X 10.11.4
+* Mac OS X 10.11.4
 
-    ```shell
-    su -
-    gem install jekyll rouge -V
-    ```
+```shell
+su -
+gem install jekyll rouge -V
+```
 
-    * CentOS 7.0
+* CentOS 7.0
 
-    ```shell
-    su -
-    yum install -y ruby ruby-devel rubygems
-    gem install jekyll jekyll-paginate -V
-    ```
+```shell
+su -
+yum install -y ruby ruby-devel rubygems
+gem install jekyll jekyll-paginate -V
+```
 
 # 更新 Ruby 库
 
@@ -48,6 +48,6 @@ Mac 可能会应为 SIP 出现文件读写权限问题，请参考 [SIP](../mac/
 
 # 安装 Jekyll-Assets
 
-```
+```shell
 gem install jekyll-assets -V
 ```
