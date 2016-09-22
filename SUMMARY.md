@@ -6,7 +6,6 @@
         * [安装 iTerm2](env/iterm/install.md)
             * [推荐设置](env/iterm/preference.md)
             * [常用功能](env/iterm/function.md)
-            * [Bug缺憾](env/iterm/bug.md)
     * [bash](env/bash.md)
     * [让 vim 飞](env/vim/README.md)
         * [vim插件](env/vim/plugin.md)
