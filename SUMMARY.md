@@ -63,3 +63,6 @@
     * [GitBook](nodejs/gitbook.md)
 * [Lua](lua/README.md)
     * [安装 Lua](lua/install.md)
+* [Git](git/README.md)
+    * [配置Git](git/config.md)
+    * [GitHub](git/github.md)
