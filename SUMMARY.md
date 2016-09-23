@@ -10,6 +10,7 @@
     * [安装zsh](zsh/install.md)
     * [配置zsh](zsh/config.md)
 * [让 Vim 飞](vim/README.md)
+    * [Vundle](vim/vundle.md)
     * [Vim 插件](vim/plugin.md)
     * [Vim 命令](vim/cmd.md)
 * [svn](svn/README.md)
