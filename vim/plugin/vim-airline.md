@@ -1,5 +1,15 @@
 # vim-airline
 
+## 安装
+
+* Vundle
+
+    ```vim
+    Plugin 'vim-airline/vim-airline`
+    ```
+
+## 配置
+
 ```vim
 set t_Co=256       " Explicitly tell Vim that the terminal supports 256 colors
 set laststatus=2
