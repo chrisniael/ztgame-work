@@ -1,5 +1,9 @@
 # vim-airline
 
+Vim 状态栏插件，要设置状态栏主题，请配合安装插件 [vim-airline-themes](vim-airline-themes.md)
+
+![vim-airline](https://raw.githubusercontent.com/chrisniael/vim-configuration/master/images/vim-airline.gif)
+
 ## 安装
 
 * Vundle
