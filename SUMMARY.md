@@ -71,6 +71,7 @@
     * [修改 hostname](linux/set-hostname.md)
     * [踢出登录的用户](linux/kill-login-user.md)
     * [CentOS Home目录下中文路径转中文](linux/centos-home-path-cn-to-en.md)
+    * [Windows终端上传下载文件](linux/windows-scp-files.md)
 * [JavaScript](js/README.md)
     * [JS 全局变量](js/global-var.md)
     * [SetInterval、SetTimeOut 传递带参数的函数](js/setinterval-function-var.md)
