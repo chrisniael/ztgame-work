@@ -64,6 +64,7 @@
     * [YUM 安装高版本 PHP](php/yum-install-high-version-php.md)
     * [PHP-FPM 监听 Unix Socket](php/php-fpm-listen-socket.md)
 * [Ruby](ruby/README.md)
+    * [RubyGems](ruby/rubygems.md)
     * [Jekyll](ruby/jekyll.md)
 * [Node.js](nodejs/README.md)
     * [GitBook](nodejs/gitbook.md)
